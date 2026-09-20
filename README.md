@@ -123,8 +123,9 @@ Inference server, แอปมือถือ,<br/>dashboard และการ 
 
 <h4>📈 <a href="https://github.com/watcharaponthod-code/bitcoin-ml-prediction">bitcoin-ml-prediction</a></h4>
 
-ทำนายทิศทางราคา Bitcoin ด้วยการรวมโมเดลแบบ sequence กับ tree บนฟีเจอร์ที่สร้างจากข้อมูลตลาด
-ได้ความแม่น 87.81% บนข้อมูลที่กันไว้ทดสอบ พร้อมวิธีวัดที่ได้ตัวเลขนั้นมา
+โมเดล sequence กับ tree บนข้อมูล BTC-USD 12 ปี และ indicator ที่สร้างเอง 18 ตัว
+LSTM ได้ MAPE 12.19% บนงาน regression ส่วนโมเดลทำนายทิศทางอยู่ราวระดับเดาสุ่ม
+และรีโปรายงานตัวเลขนั้นไว้ตรง ๆ แทนที่จะซ่อน
 
 <img src="https://img.shields.io/badge/LSTM-05070D?style=flat-square&logo=keras&logoColor=D00000"/>
 <img src="https://img.shields.io/badge/XGBoost-05070D?style=flat-square&logo=xgboost&logoColor=22D3EE"/>
