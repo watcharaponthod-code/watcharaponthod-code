@@ -1,7 +1,7 @@
 <h1 align="center">Watcharapon Thodraksa</h1>
 
 <p align="center">
-  <b>AI / ML Engineer</b> — Computer Vision &amp; LLM Systems<br/>
+  <b>AI / ML Engineer</b> · Computer Vision &amp; LLM Systems<br/>
   <sub>Bangkok, Thailand · Available for freelance work</sub>
 </p>
 
@@ -18,7 +18,7 @@ can actually use.
 
 On the vision side that means detection, pose estimation, OCR, face liveness, and video
 pipelines that run on live camera feeds. On the language side it means retrieval, agents,
-tool use, structured output, and local inference. I also build the parts around the model —
+tool use, structured output, and local inference. I also build the parts around the model:
 inference servers, mobile apps, dashboards, and the deployment that holds them together.
 
 What I care about most is evaluation you can trust. A score that only exists on a validation
@@ -103,7 +103,7 @@ A mobile English tutor that role-plays real situations and corrects your grammar
 Runs on a Thai-tuned LLM with structured JSON output and importance-scored context pruning, so
 long sessions stay coherent.
 
-<sub>`React Native` · `Expo` · `LangChain`</sub>
+<sub>`React Native` · `Expo` · `Typhoon ThaiLLM` · `Gemini`</sub>
 
 </td>
 </tr>
