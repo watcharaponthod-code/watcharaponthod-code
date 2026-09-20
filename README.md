@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>AI / ML Engineer</b> · Computer Vision &amp; LLM Systems<br/>
-  <sub>Bangkok, Thailand · Available for freelance work</sub>
+  <sub>Thailand · Available for freelance work</sub>
 </p>
 
 <p align="center">
