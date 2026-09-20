@@ -42,17 +42,17 @@
 
     <rect x="72" y="96" width="4" height="128" rx="2" fill="url(#accent)"/>
 
-    <text x="104" y="132" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" letter-spacing="3.5" fill="#7DD3FC">AI · ML · COMPUTER VISION</text>
-    <text x="104" y="190" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="52" font-weight="700" fill="#F8FAFC">Watcharapon Thodraksa</text>
-    <text x="104" y="226" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="19" fill="#94A3B8">Vision and LLM systems, taken all the way to production</text>
+    <text x="104" y="132" font-family="'Noto Sans Thai',Inter,'Segoe UI',Tahoma,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" letter-spacing="3.5" fill="#7DD3FC">AI · ML · COMPUTER VISION</text>
+    <text x="104" y="190" font-family="'Noto Sans Thai',Inter,'Segoe UI',Tahoma,Helvetica,Arial,sans-serif" font-size="52" font-weight="700" fill="#F8FAFC">Watcharapon Thodraksa</text>
+    <text x="104" y="226" font-family="'Noto Sans Thai',Inter,'Segoe UI',Tahoma,Helvetica,Arial,sans-serif" font-size="19" fill="#94A3B8">ระบบ computer vision และ LLM ที่ทำจนใช้งานได้จริง</text>
 
-    <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12.5">
-      <rect x="104" y="248" width="196" height="30" rx="15" fill="#0EA5E9" fill-opacity="0.12" stroke="#38BDF8" stroke-opacity="0.45"/>
-      <text x="120" y="268" fill="#7DD3FC">accuracy + coverage</text>
-      <rect x="312" y="248" width="186" height="30" rx="15" fill="#6366F1" fill-opacity="0.12" stroke="#818CF8" stroke-opacity="0.45"/>
-      <text x="328" y="268" fill="#A5B4FC">out-of-sample only</text>
-      <rect x="510" y="248" width="150" height="30" rx="15" fill="#22D3EE" fill-opacity="0.12" stroke="#22D3EE" stroke-opacity="0.45"/>
-      <text x="526" y="268" fill="#67E8F9">ships or it isn't</text>
+    <g font-family="'Noto Sans Thai',Inter,'Segoe UI',Tahoma,Helvetica,Arial,sans-serif" font-size="12.5">
+      <rect x="104" y="248" width="210" height="30" rx="15" fill="#0EA5E9" fill-opacity="0.12" stroke="#38BDF8" stroke-opacity="0.45"/>
+      <text x="120" y="268" fill="#7DD3FC">รายงาน accuracy คู่ coverage</text>
+      <rect x="326" y="248" width="196" height="30" rx="15" fill="#6366F1" fill-opacity="0.12" stroke="#818CF8" stroke-opacity="0.45"/>
+      <text x="342" y="268" fill="#A5B4FC">วัดแบบ out-of-sample</text>
+      <rect x="534" y="248" width="176" height="30" rx="15" fill="#22D3EE" fill-opacity="0.12" stroke="#22D3EE" stroke-opacity="0.45"/>
+      <text x="550" y="268" fill="#67E8F9">ไม่มั่นใจให้บอกว่าไม่รู้</text>
     </g>
   </g>
   <rect x="0.5" y="0.5" width="1199" height="319" rx="16" fill="none" stroke="#1E293B"/>
