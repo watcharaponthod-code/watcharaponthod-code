@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none" role="img" aria-label="Watcharapon Thodraksa, AI and ML Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#05070D"/><stop offset="0.5" stop-color="#0B1B33"/><stop offset="1" stop-color="#0A1A2F"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="120" y1="0" x2="780" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38BDF8"/><stop offset="0.55" stop-color="#818CF8"/><stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientTransform="translate(980 60) rotate(120) scale(320)">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.45"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientTransform="translate(160 300) rotate(-45) scale(360)">
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0.38"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#FFFFFF" fill-opacity="0.07"/>
+    </pattern>
+    <clipPath id="round"><rect width="1200" height="320" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <rect width="1200" height="320" fill="url(#glowA)"/>
+    <rect width="1200" height="320" fill="url(#glowB)"/>
+
+    <!-- scanning detection boxes: the work, drawn as the decoration -->
+    <g stroke="#38BDF8" stroke-opacity="0.55" fill="none" stroke-width="1.5">
+      <rect x="812" y="74" width="120" height="86" rx="4"/>
+      <rect x="902" y="150" width="86" height="64" rx="4"/>
+      <rect x="770" y="176" width="72" height="54" rx="4"/>
+    </g>
+    <g fill="#38BDF8" fill-opacity="0.85" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10">
+      <text x="812" y="68">cane 0.97</text>
+      <text x="902" y="144">dust 0.81</text>
+      <text x="770" y="170">plate 0.93</text>
+    </g>
+    <g stroke="#22D3EE" stroke-opacity="0.30" stroke-width="1">
+      <line x1="740" y1="42" x2="1040" y2="42"/>
+      <line x1="740" y1="270" x2="1040" y2="270"/>
+    </g>
+
+    <rect x="72" y="96" width="4" height="128" rx="2" fill="url(#accent)"/>
+
+    <text x="104" y="132" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" letter-spacing="3.5" fill="#7DD3FC">AI · ML · COMPUTER VISION</text>
+    <text x="104" y="190" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="52" font-weight="700" fill="#F8FAFC">Watcharapon Thodraksa</text>
+    <text x="104" y="226" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="19" fill="#94A3B8">Vision and LLM systems, taken all the way to production</text>
+
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12.5">
+      <rect x="104" y="248" width="196" height="30" rx="15" fill="#0EA5E9" fill-opacity="0.12" stroke="#38BDF8" stroke-opacity="0.45"/>
+      <text x="120" y="268" fill="#7DD3FC">accuracy + coverage</text>
+      <rect x="312" y="248" width="186" height="30" rx="15" fill="#6366F1" fill-opacity="0.12" stroke="#818CF8" stroke-opacity="0.45"/>
+      <text x="328" y="268" fill="#A5B4FC">out-of-sample only</text>
+      <rect x="510" y="248" width="150" height="30" rx="15" fill="#22D3EE" fill-opacity="0.12" stroke="#22D3EE" stroke-opacity="0.45"/>
+      <text x="526" y="268" fill="#67E8F9">ships or it isn't</text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="16" fill="none" stroke="#1E293B"/>
+</svg>
