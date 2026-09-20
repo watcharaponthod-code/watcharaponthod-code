@@ -1,97 +1,66 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Watcharapon%20T.&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Full-Stack%20Developer%20%7C%20AI%2FML%20%7C%20Freelancer&descAlignY=58&descAlign=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Watcharapon%20T.&fontSize=46&fontColor=fff&animation=twinkling&fontAlignY=36&desc=AI%2FML%20Engineer%20%C2%B7%20Computer%20Vision%20%C2%B7%20Full-Stack&descAlignY=58&descAlign=50" width="100%"/>
 </div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=520&lines=TypeScript+%2F+React+%2F+Next.js+Developer;Building+AI+%26+RAG+Systems;Algorithmic+Trading+%26+ML+Models;Computer+Vision+%26+Mobile+Apps)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=560&lines=Computer+vision+for+Thai+agriculture+%26+industry;Conformal+prediction+%2B+reject+option+%E2%80%94+models+that+say+%22I+don't+know%22;RAG+systems+%C2%B7+LangGraph+%C2%B7+Ollama;Next.js+%2F+Expo+full-stack)](https://git.io/typing-svg)
 
-[![GitHub followers](https://img.shields.io/github/followers/watcharaponthod-code?style=social&label=Follow)](https://github.com/watcharaponthod-code)
-&nbsp;&nbsp;
-[![Profile Views](https://komarev.com/ghpvc/?username=watcharaponthod-code&color=58A6FF&style=flat-square&label=Profile+Views)](https://github.com/watcharaponthod-code)
+[![Portfolio](https://img.shields.io/badge/Portfolio-58A6FF?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-watcharapon.vercel.app/)
+[![GitHub followers](https://img.shields.io/github/followers/watcharaponthod-code?style=flat-square&color=58A6FF&label=Follow)](https://github.com/watcharaponthod-code)
+[![Profile Views](https://komarev.com/ghpvc/?username=watcharaponthod-code&color=58A6FF&style=flat-square&label=Views)](https://github.com/watcharaponthod-code)
 
 </div>
 
 ---
 
-## 🧑‍💻 About Me
+## About
 
-```typescript
-const watcharapon = {
-  location: "Thailand 🇹🇭",
-  focus:    ["Full-Stack Web", "AI/RAG Systems", "Algo Trading", "Computer Vision"],
-  stack:    ["TypeScript", "Python", "Next.js", "LangChain", "Expo"],
-  status:   "Open to freelance opportunities 💼",
-};
+ผมสร้างโมเดลที่ **พิสูจน์ได้ว่าใช้งานได้จริง** ไม่ใช่แค่ชนะบน validation set —
+วัดแบบ out-of-block, รายงาน accuracy คู่กับ coverage เสมอ, โมเดลที่ไม่มั่นใจต้องยอมบอกว่าไม่รู้
+
+งานหลักอยู่กับ **อุตสาหกรรมอ้อยและเกษตรไทย**: ตรวจฝุ่นจาก CCTV ที่ลานเท, อ่านคุณภาพอ้อยรายคันรถ,
+เติมค่าดัชนีพืชตอนเมฆบังด้วยเรดาร์ดาวเทียม
+
+```python
+focus  = ["computer vision", "uncertainty-aware ML", "RAG systems", "full-stack"]
+stack  = ["Python", "PyTorch", "TypeScript", "Next.js", "Expo", "Docker"]
+rule   = "every number is out-of-sample, or it doesn't get reported"
+status = "open to freelance 💼"
 ```
 
 ---
 
-## 🛠 Tech Stack
+## Selected work
 
-<div align="center">
-
-**Languages**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-
-**Frontend & Mobile**
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-**AI / ML**
-
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-**Backend & Data**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-</div>
+| Project | What it does | Result |
+|:---|:---|:---|
+| [**model-proof-loop**](https://github.com/watcharaponthod-code/model-proof-loop) | ระเบียบวิธี prove-then-train เป็น Claude Code skill — free labels, spatial-block CV, conformal + reject option | จาก SAR→NDVI gap-fill: **95.7%** ในเกณฑ์ บนเคสที่โมเดลยอมตอบ |
+| [**ekyc**](https://github.com/watcharaponthod-code/ekyc) | Hybrid eKYC — liveness (turn/blink + active flash) + face identity | React Native module + FastAPI |
+| [**ninja-fruit**](https://github.com/watcharaponthod-code/ninja-fruit) | เกมฟันผลไม้ด้วยการขยับตัวจริงหน้าเว็บแคม | YOLOv8 pose, real-time |
+| [**rag-chat**](https://github.com/watcharaponthod-code/rag-chat) | Agentic RAG สำหรับค้นเอกสาร + ติดตามบั๊ก | LangGraph · Ollama · pgvector |
+| [**bitcoin-ml-prediction**](https://github.com/watcharaponthod-code/bitcoin-ml-prediction) | ทำนายราคา BTC | LSTM + XGBoost, **87.81%** |
+| [**elic**](https://github.com/watcharaponthod-code/elic) | แชตบอตฝึกภาษาอังกฤษบนมือถือ | React Native · Expo · LangChain |
 
 ---
 
-## 📊 GitHub Stats
+## Stack
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=watcharaponthod-code&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=watcharaponthod-code&layout=compact&theme=tokyonight&hide_border=true&langs_count=7" alt="Top Languages"/>
-</div>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=flat-square&logo=opencv&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=watcharaponthod-code&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </div>
 
----
-
-## 🚀 Featured Projects
-
 <div align="center">
-
-| Project | Description | Stack |
-|:---|:---|:---|
-| [🧠 **rag-chat**](https://github.com/watcharaponthod-code/rag-chat) | Enterprise agentic RAG chat for document retrieval & bug tracking | LangGraph · Ollama · pgvector |
-| [📱 **elic**](https://github.com/watcharaponthod-code/elic) | AI-powered English learning chatbot mobile app | React Native · Expo · LangChain |
-| [📈 **trading**](https://github.com/watcharaponthod-code/trading) | Full-stack algorithmic trading dashboard | Next.js · TypeScript |
-| [🎮 **ninja-fruit**](https://github.com/watcharaponthod-code/ninja-fruit) | Real-time AI fruit slashing game via webcam | YOLOv8 · MediaPipe · Python |
-| [₿ **bitcoin-ml-prediction**](https://github.com/watcharaponthod-code/bitcoin-ml-prediction) | BTC price prediction — 87.81% accuracy | LSTM · XGBoost · Python |
-| [🌐 **Thai-Norway Experts**](https://github.com/watcharaponthod-code/Thai-Norway-Professional-Document-Experts) | Professional document translation platform | Next.js · TypeScript |
-
-</div>
-
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=110&section=footer" width="100%"/>
 </div>
