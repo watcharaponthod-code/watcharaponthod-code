@@ -17,28 +17,40 @@
 
 <table align="center">
 <tr>
-<td align="center" width="33%">
+<td align="center" width="25%">
 
-### 🛰️
-**งานภาพ**
+<img src="https://raw.githubusercontent.com/watcharaponthod-code/watcharaponthod-code/main/.github/assets/icons/deploy.svg" width="34" height="34" alt=""/>
 
-Detection, pose, OCR, face liveness<br/>และ video pipeline<br/>ที่รันบนกล้องจริง
+**Deploy บน Kubernetes**
 
-</td>
-<td align="center" width="33%">
-
-### 🧠
-**งานภาษา**
-
-Retrieval, agents, tool use,<br/>structured output<br/>และรันโมเดลในเครื่องตัวเอง
+วาง CI/CD ด้วย Helm chart<br/>ตั้ง Grafana + Prometheus<br/>แล้วแก้ปัญหาระดับ environment
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="25%">
 
-### 🚢
-**ส่งมอบ**
+<img src="https://raw.githubusercontent.com/watcharaponthod-code/watcharaponthod-code/main/.github/assets/icons/pipeline.svg" width="34" height="34" alt=""/>
 
-Inference server, แอปมือถือ,<br/>dashboard และการ deploy<br/>ที่ทำให้ทุกอย่างอยู่ด้วยกันได้
+**วาง MLOps pipeline**
+
+MLflow, ClearML, DVC, Airflow<br/>เสิร์ฟโมเดลผ่าน FastAPI<br/>และรัน LLM เองด้วย Ollama
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://raw.githubusercontent.com/watcharaponthod-code/watcharaponthod-code/main/.github/assets/icons/backend.svg" width="34" height="34" alt=""/>
+
+**Backend ที่โหลดจริง**
+
+Spring Boot microservices<br/>กับ Kafka pipeline สำหรับ PSP<br/>ที่วิ่ง 1M+ รายการต่อวัน
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://raw.githubusercontent.com/watcharaponthod-code/watcharaponthod-code/main/.github/assets/icons/vision.svg" width="34" height="34" alt=""/>
+
+**Computer vision บนกล้องจริง**
+
+YOLOv8 กับ MediaPipe<br/>ที่ 30-60 FPS<br/>บนเครื่องที่ลูกค้ามีอยู่แล้ว
 
 </td>
 </tr>
@@ -54,7 +66,7 @@ Inference server, แอปมือถือ,<br/>dashboard และการ 
 <tr>
 <td width="50%" valign="top">
 
-<h4>🏭 <a href="https://github.com/watcharaponthod-code/sugarcane-cv">sugarcane-cv</a></h4>
+<h4><img src="https://raw.githubusercontent.com/watcharaponthod-code/watcharaponthod-code/main/.github/assets/icons/mill.svg" width="20" height="20" align="absmiddle" alt=""/> <a href="https://github.com/watcharaponthod-code/sugarcane-cv">sugarcane-cv</a></h4>
 
 เก้าโจทย์ตรวจจับจากกล้อง CCTV และไมโครโฟนในโรงงานจริง ทั้งความทึบของฝุ่น การแยกชนิดวัสดุ
 การวัดการไหล และ OCR ป้ายทะเบียนไทย มีทั้งโค้ดเทรนและการประเมินผลที่รายงานว่า
@@ -67,7 +79,7 @@ Inference server, แอปมือถือ,<br/>dashboard และการ 
 </td>
 <td width="50%" valign="top">
 
-<h4>🪪 <a href="https://github.com/watcharaponthod-code/ekyc">ekyc</a></h4>
+<h4><img src="https://raw.githubusercontent.com/watcharaponthod-code/watcharaponthod-code/main/.github/assets/icons/id.svg" width="20" height="20" align="absmiddle" alt=""/> <a href="https://github.com/watcharaponthod-code/ekyc">ekyc</a></h4>
 
 ยืนยันตัวตนด้วยใบหน้า มี liveness ทั้งแบบ passive และ active ทั้งหันหน้า กะพริบตา
 และยิงแฟลชตรวจ แล้วจับคู่ใบหน้าอีกชั้น ใช้ MediaPipe กับ DeepFace หลัง FastAPI server
@@ -82,7 +94,7 @@ Inference server, แอปมือถือ,<br/>dashboard และการ 
 <tr>
 <td width="50%" valign="top">
 
-<h4>🔎 <a href="https://github.com/watcharaponthod-code/rag-chat">rag-chat</a></h4>
+<h4><img src="https://raw.githubusercontent.com/watcharaponthod-code/watcharaponthod-code/main/.github/assets/icons/search.svg" width="20" height="20" align="absmiddle" alt=""/> <a href="https://github.com/watcharaponthod-code/rag-chat">rag-chat</a></h4>
 
 แพลตฟอร์ม RAG แบบ agentic สำหรับค้นเอกสารและติดตามบั๊ก ใช้ LangGraph agents บน Ollama
 กับ pgvector ประมวลผลในเครื่องทั้งหมด ไม่มีข้อมูลออกนอก
@@ -94,7 +106,7 @@ Inference server, แอปมือถือ,<br/>dashboard และการ 
 </td>
 <td width="50%" valign="top">
 
-<h4>🥷 <a href="https://github.com/watcharaponthod-code/ninja-fruit">ninja-fruit</a></h4>
+<h4><img src="https://raw.githubusercontent.com/watcharaponthod-code/watcharaponthod-code/main/.github/assets/icons/pose.svg" width="20" height="20" align="absmiddle" alt=""/> <a href="https://github.com/watcharaponthod-code/ninja-fruit">ninja-fruit</a></h4>
 
 เกมที่เล่นด้วยการขยับตัวจริงหน้าเว็บแคมธรรมดา ใช้ YOLOv8 pose estimation ตรวจการฟันแบบ real-time
 ไม่ต้องใช้จอย ไม่ต้องใช้กล้องวัดระยะ
@@ -108,7 +120,7 @@ Inference server, แอปมือถือ,<br/>dashboard และการ 
 <tr>
 <td width="50%" valign="top">
 
-<h4>🗣️ <a href="https://github.com/watcharaponthod-code/elic">elic</a></h4>
+<h4><img src="https://raw.githubusercontent.com/watcharaponthod-code/watcharaponthod-code/main/.github/assets/icons/chat.svg" width="20" height="20" align="absmiddle" alt=""/> <a href="https://github.com/watcharaponthod-code/elic">elic</a></h4>
 
 แอปฝึกภาษาอังกฤษบนมือถือ สวมบทบาทสถานการณ์จริงและแก้ไวยากรณ์ให้กลางบทสนทนา
 รันบน LLM ที่ปรับมาสำหรับภาษาไทย ให้ผลลัพธ์เป็น JSON และตัดบทสนทนาเก่าด้วยคะแนนความสำคัญ
@@ -121,7 +133,7 @@ Inference server, แอปมือถือ,<br/>dashboard และการ 
 </td>
 <td width="50%" valign="top">
 
-<h4>📈 <a href="https://github.com/watcharaponthod-code/bitcoin-ml-prediction">bitcoin-ml-prediction</a></h4>
+<h4><img src="https://raw.githubusercontent.com/watcharaponthod-code/watcharaponthod-code/main/.github/assets/icons/chart.svg" width="20" height="20" align="absmiddle" alt=""/> <a href="https://github.com/watcharaponthod-code/bitcoin-ml-prediction">bitcoin-ml-prediction</a></h4>
 
 โมเดล sequence กับ tree บนข้อมูล BTC-USD 12 ปี และ indicator ที่สร้างเอง 18 ตัว
 LSTM ได้ MAPE 12.19% บนงาน regression ส่วนโมเดลทำนายทิศทางอยู่ราวระดับเดาสุ่ม
@@ -137,16 +149,6 @@ LSTM ได้ MAPE 12.19% บนงาน regression ส่วนโมเด�
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/watcharaponthod-code/watcharaponthod-code/main/.github/assets/rule.svg" width="100%" alt=""/>
-</div>
-
-<h3 align="center">วิธีวัดผลของผม</h3>
-
-<div align="center">
-
-ตัวเลขที่มีอยู่แค่บน validation set ยังไม่นับเป็นผลลัพธ์ ผมวัดแบบ out-of-sample เสมอ
-และรายงาน accuracy คู่กับ coverage ทุกครั้ง เวลาโมเดลไม่มั่นใจ ผมอยากให้มันบอกว่าไม่รู้มากกว่าเดา
-เพราะคำตอบผิดที่ดูมั่นใจแพงกว่าการไม่ตอบ
-
 </div>
 
 <h3 align="center">เครื่องมือที่ใช้</h3>
